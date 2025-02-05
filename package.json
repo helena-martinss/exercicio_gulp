@@ -1,5 +1,12 @@
 {
   "devDependencies": {
-    "gulp": "^5.0.0"
+    "gulp": "^5.0.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^6.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "sass": "gulp sass"
   }
 }
