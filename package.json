@@ -1,15 +1,28 @@
 {
-  "type": "module",
+  "name": "gulp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "sass": "sass source/styles/main.scss build/styles/main.css",
+    "imagemin": "gulp imagemin",
+    "uglify": "gulp uglify"
+},
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
+    "gulp-obfuscate": "^0.2.9",
     "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.83.4"
   },
-  "scripts": {
-    "gulp": "gulp",
-    "sass": "gulp sass"
+  "dependencies": {
+    "gulp-debug": "^5.0.1"
   }
 }
+
 

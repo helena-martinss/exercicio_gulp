@@ -1,0 +1,1 @@
+function somar(o,a){return o+a}let resultado=somar(5,3);console.log("O resultado da soma é: "+resultado);
