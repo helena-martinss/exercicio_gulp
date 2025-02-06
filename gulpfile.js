@@ -26,7 +26,4 @@ function watchFiles() {
     gulp.watch('./source/scripts/*.js', { ignoreInitial: false }, gulp.series(comprimeJavaScript));
     gulp.watch('./source/images/*', { ignoreInitial: false }, gulp.series(comprimeImagens));
 }
-export default gulp.series(
-    gulp.parallel(compilaSass, comprimeJavaScript, comprimeImagens),
-    watchFiles
-);
+export default gulp.series(watchFiles);
